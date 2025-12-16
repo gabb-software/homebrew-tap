@@ -19,7 +19,7 @@ brew install gabb-software/tap/gabb-cli
 
 | Formula | Description |
 |---------|-------------|
-| `gabb-cli` | Fast local code indexing CLI for TypeScript and Rust projects |
+| `gabb-cli` | Fast local code indexing CLI |
 
 ## Updating
 
