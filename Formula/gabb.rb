@@ -4,23 +4,23 @@
 class Gabb < Formula
   desc "Fast local code indexing CLI for TypeScript and Rust projects"
   homepage "https://github.com/gabb-software/gabb-cli"
-  version "1.6.2"
+  version "1.9.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/gabb-software/gabb-cli/releases/download/v#{version}/gabb-aarch64-apple-darwin.tar.gz"
-      sha256 "df6973d05f0b45eb0e8edf1397149366a5efc9c5785c5429325359a67b20137a"
+      sha256 "005b3885275cb1e4c5a2761f7dd5e80f4e47852b3b036a0b02267844237fb6ee"
     else
       url "https://github.com/gabb-software/gabb-cli/releases/download/v#{version}/gabb-x86_64-apple-darwin.tar.gz"
-      sha256 "0ad825650e008b9fd2a4728a06f161f7815afd7661aab60bcbe194e3005958cb"
+      sha256 "13b7d69e45f0cf8f22c0fd9b9a1107029b1e4d67c135a0e1dd0343e9d1bc87e3"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/gabb-software/gabb-cli/releases/download/v#{version}/gabb-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "ea9386e8abc1087d53d52774edfb32a46f168b9f94c79a63ca65149ab4e13282"
+      sha256 "a2d1f6808c3c8395aef1c4addbf023604deece6dd16a7721b7265d8ba6f75a92"
     end
   end
 
